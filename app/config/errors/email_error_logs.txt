@@ -1,0 +1,40 @@
+SEND EMAIL ERROR (28/03/2025 07:27 PM): PHPMailer\PHPMailer\Exception: Could not access file: Resources/imagenes/tmaz.jpg in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php:3827
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\helpers\MailService.php(77): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(7): app\helpers\MailService::sendMail()
+#2 {main} 
+
+SEND EMAIL ERROR (28/03/2025 07:28 PM): PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. STARTTLS command failed Unrecognised command
+ in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php:2248
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(2058): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\helpers\MailService.php(80): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(7): app\helpers\MailService::sendMail()
+#5 {main} 
+
+SEND EMAIL ERROR (28/03/2025 09:25 PM): PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php:2282
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(2058): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\helpers\MailService.php(83): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(7): app\helpers\MailService::sendMail()
+#5 {main} 
+
+SEND EMAIL ERROR (28/03/2025 09:26 PM): PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php:2282
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(2058): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\helpers\MailService.php(83): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(7): app\helpers\MailService::sendMail()
+#5 {main} 
+
+SEND EMAIL ERROR (28/03/2025 09:39 PM): PHPMailer\PHPMailer\Exception: Could not access file: public/assets/src/imgs/mail-logo.png in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\vendor\phpmailer\phpmailer\src\PHPMailer.php:3827
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\helpers\MailService.php(80): PHPMailer\PHPMailer\PHPMailer->addEmbeddedImage()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(7): app\helpers\MailService::sendMail()
+#2 {main} 
+

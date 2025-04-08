@@ -1,0 +1,86 @@
+
+
+CONNECTION ERROR (06/04/2025 05:33 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:34 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:38 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:38 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:50 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:50 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:51 PM): PDOException: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:55 PM): PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DEFINIR failed: Host desconocido in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DEFINIR failed: Host desconocido in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:59 PM): PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DEFINIR failed: Host desconocido in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DEFINIR failed: Host desconocido in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+CONNECTION ERROR (06/04/2025 05:59 PM): PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for DEFINIR failed: Host desconocido in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for DEFINIR failed: Host desconocido in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:33
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(33): PDO->__construct()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(14): app\config\SQL->__construct()
+#2 {main} 
+
+SELECT ERROR (06/04/2025 06:17 PM): PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'weight' in 'WHERE' in C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php:109
+Stack trace:
+#0 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\app\config\SQL.php(109): PDO->query()
+#1 C:\Users\yh9pl\OneDrive\Escritorio\PHP-BAYH9\public\tst.php(23): app\config\SQL->select()
+#2 {main} 
+

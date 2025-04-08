@@ -1,0 +1,21 @@
+{
+    "name": "yohan.plazola/app",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yohan Alek",
+            "email": "yh9dev@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "dompdf/dompdf": "^3.1",
+        "phpoffice/phpspreadsheet": "^4.1",
+        "firebase/php-jwt": "^6.11",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
