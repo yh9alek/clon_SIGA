@@ -103,7 +103,6 @@ final class SQL
         $LIMIT    = !empty($LIMIT)    ? "LIMIT $LIMIT"       : $LIMIT;
 
         $sql = "SELECT $fields FROM {$this->table} {$this->table[0]} $extras $ORDER_BY $LIMIT;";
-        #die($sql);
 
         try {
             $stmt = $this->con->query($sql);
@@ -117,7 +116,7 @@ final class SQL
         } catch (Exception $e) {
             file_put_contents(
                 Server::ERROR_LOGS_PATH.'db_error_logs.txt',
-                "SELECT ERROR (".date('d/m/Y h:i A')."): $e \n" . PHP_EOL, FILE_APPEND
+                "SELECT ERROR (".date('d/m/Y h:i A')."): $e QUERY: $sql\n" . PHP_EOL, FILE_APPEND
             );
         }
 
@@ -145,7 +144,6 @@ final class SQL
         );
 
         $sql = "INSERT INTO {$this->table} ($columns) VALUES ($params);";
-        # die($sql);
 
         try {
             $stmt = $this->con->prepare($sql);
@@ -153,7 +151,7 @@ final class SQL
         } catch (Exception $e) {
             file_put_contents(
                 Server::ERROR_LOGS_PATH.'db_error_logs.txt',
-                "INSERT ERROR (".date('d/m/Y h:i A')."): $e \n" . PHP_EOL, FILE_APPEND
+                "INSERT ERROR (".date('d/m/Y h:i A')."): $e QUERY: $sql\n" . PHP_EOL, FILE_APPEND
             );
         }
 
@@ -181,7 +179,6 @@ final class SQL
         );
 
         $sql = "UPDATE {$this->table} SET $fields WHERE {$this->primaryKey} = :id;";
-        # die($sql);
 
         try {
             $stmt = $this->con->prepare($sql);
@@ -191,7 +188,7 @@ final class SQL
         } catch (Exception $e) {           
             file_put_contents(
                 Server::ERROR_LOGS_PATH.'db_error_logs.txt',
-                "UPDATE ERROR (".date('d/m/Y h:i A')."): $e \n" . PHP_EOL, FILE_APPEND
+                "UPDATE ERROR (".date('d/m/Y h:i A')."): $e QUERY: $sql\n" . PHP_EOL, FILE_APPEND
             );
         }
 
@@ -221,7 +218,7 @@ final class SQL
         } catch (Exception $e) {
             file_put_contents(
                 Server::ERROR_LOGS_PATH.'db_error_logs.txt',
-                "DELETE ERROR (".date('d/m/Y h:i A')."): $e \n" . PHP_EOL, FILE_APPEND
+                "DELETE ERROR (".date('d/m/Y h:i A')."): $e QUERY: $sql\n" . PHP_EOL, FILE_APPEND
             );
         }
 

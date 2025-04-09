@@ -10,11 +10,11 @@ ENV::createImmutable(dirname(__DIR__))->load();
 # -----------------------------------------------------------
 
 use app\Router;
-use app\controllers\TestController;
+use app\controllers\LoginController;
 
 $router = new Router;
 
-$router->get('/test',  [TestController::class, 'test']);
-$router->post('/test', [TestController::class, 'test']);
+$router->get('/login',  [LoginController::class, 'login']);
+$router->post('/login', [LoginController::class, 'login']);
 
 $router->resolve();
